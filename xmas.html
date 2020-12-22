@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020년을 보내며</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poor Story', cursive;
+        }
+
+        body {
+            background-color: #9b070f;
+        }
+
+        .envelope {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+            background-size: cover;
+            background-position: center;
+            margin: 200px auto 0 auto;
+        }
+
+        .envelope-msg,
+        h1 {
+            color: white;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .letter-close {
+            display: none;
+        }
+
+        .letter-open-img {
+            background-color: white;
+            width: 200px;
+            height: 200px;
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/rtan.gif');
+            background-size: cover;
+            background-position: center;
+            margin: 100px auto 0 auto;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .msgbox{
+            background-color: ivory;
+            width: 400px;
+            margin: auto;
+            color: brown;
+            padding: 30px;
+            font-size: 20px;
+            line-height: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .from{
+            text-align: right;
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 760px) {
+            .msgbox {
+                width: 300px;
+                padding: 20px;
+            }
+            
+            .rtan {
+                width: 150px;
+                height: 150px;
+                margin: 70px auto 0px auto;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+
+            .envelope{
+                margin: 150px auto 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="letter-close">
+        <div class="envelope"></div>
+        <h2 class="envelope-msg">봉투를 열어봐!</h2>
+    </div>
+    <div class="letter-open">
+        <div class="letter-open-img"></div>
+        <h1>2020년 수고 많았어</h1>
+        <div class="msgbox">
+            <p>
+                친구들에게. <br />
+                올해 이런저런 일이 많았는데 <br />
+                너희 덕분에 하나도 힘들지 않았어 <br />
+                내년에도 우리 우정 변치말자 <br />
+                Merry christmas! 🎄 <br />
+            </p>
+            <p class="from">
+                2020년. 12. 25 너의 절친👾
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
